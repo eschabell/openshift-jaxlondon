@@ -10,7 +10,7 @@ Create an account at http://openshift.redhat.com/
 
 Create a jbosseap-6.0 application
 
-    rhc app create -t jbosseap-6 --from-code git://github.com/eschabell/openshift-jaxlonon.git jaxlondon
+    rhc app create -t jbosseap-6 --from-code git://github.com/eschabell/openshift-jaxlondon.git jaxlondon
 
 That's it, you can now checkout your application at:
 
