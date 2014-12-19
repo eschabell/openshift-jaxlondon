@@ -1,13 +1,15 @@
 JAX London 2013 mobile registration app on OpenShift
 ====================================================
+This is the JAX London 2013 html5 mobile registration app.
 
-This is the JAX London 2013 html5/mboile registration app.
 
-Running on OpenShift
---------------------
+Install with one click
+----------------------
+[![Click to install OpenShift](http://launch-shifter.rhcloud.com/launch/light/Click to install.svg)](https://openshift.redhat.com/app/console/application_type/custom?&cartridges[]=jbosseap-6&initial_git_url=https://github.com/eschabell/openshift-jaxlondon.git&name=jaxlondon)
 
-Create an account at http://openshift.redhat.com/
 
+Manual setup on OpenShift
+-------------------------
 Create a jbosseap-6.0 application
 
     rhc app create -t jbosseap-6 --from-code git://github.com/eschabell/openshift-jaxlondon.git jaxlondon
